@@ -38,7 +38,7 @@ function player (name) {
 
     let currentPlayer = player1;
 
-    const turnHandling = () => {currentPlayer === player1 ? player2 : player1};
+    const turnHandling = () => currentPlayer = currentPlayer === player1 ? player2 : player1;
 
     const winningCombinations = [
         [0, 1, 2], [3, 4, 5], [6, 7, 8], // Rows
