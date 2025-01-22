@@ -42,20 +42,15 @@ main {
     cursor: pointer;
 }
 
-.playerRed {
+.player1 {
     color: palevioletred;
 }
 
-.playerBlue {
+.player2 {
     color: royalblue;
 }
 
 #boxArea > div:hover {
     background-color: rgba(172, 255, 47, 0.486);
     transition: background-color 400ms;
-}
-
-.winningTiles {
-    background-color: rgba(172, 255, 47, 0.486);
-    transition: background-color 200ms;
 }
